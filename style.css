@@ -66,9 +66,9 @@ a{
 }
 
 .column{
+	margin-right: 32px;
 	display: flex;
 	flex-direction: column;
-	margin-right: 32px;
 }
 
 .image-content{
@@ -84,6 +84,18 @@ a{
 	justify-content: center;
 }
 
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p{
+	margin-top: 16px;
+}
+
 /* First Column */
 
 .column.large{
@@ -95,6 +107,7 @@ a{
 	width: 630px;
 	font-size: 40px;
 	text-align: left;
+	margin-top: 0px;
 }
 
 .lead-story .image-content span{
@@ -123,18 +136,6 @@ a{
 
 .stories .story-content{
 	height: 250px;
-}
-
-h2{
-	font-size: 30px;
-	font-weight: bold;
-	font-style: normal;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-p{
-	margin-top: 16px;
 }
 
 /* Second Column */
@@ -167,6 +168,35 @@ img.cookie{
 	display: block;
 }
 
+/* Footer */
+
+footer{
+	font-family: Verdana;
+	font-size: 12px;
+	height: 325px;
+	width: 100%;
+	margin: auto;
+	background-color: mediumaquamarine;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer .title{
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	padding-right: 25px;
+	border-right: 2px solid white;
+	display: inline-block;
+}
+
+footer nav{
+	padding-left: : 25px;
+	display: inline-block;
+}
 
 
 
